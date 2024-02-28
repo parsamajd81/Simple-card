@@ -1,0 +1,8 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    background-color: $white-color;
+    border: $card-border-color solid $card-border-width;
+    border-radius: $card-borde-radius;
+
+}
