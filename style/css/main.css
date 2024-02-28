@@ -60,4 +60,32 @@ body {
   padding-top: 4rem;
 }
 
+.card {
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  border: rgba(0, 0, 0, 0.2) solid 1px;
+  border-radius: 0.25rem;
+}
+.card .card-header {
+  padding: 0.75rem 1.25rem;
+  background-color: rgba(0, 0, 0, 0.09);
+  border-bottom: 5px solid rgba(0, 0, 0, 0.3);
+}
+.card .card-body {
+  padding: 0.75rem 1.25rem;
+  background-color: antiquewhite;
+}
+.card .card-body .card-title {
+  font-size: 1.25rem;
+  font-weight: 700;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  margin-bottom: 0.75rem;
+}
+.card .card-footer {
+  padding: 0.75rem 1.25rem;
+  background-color: rgba(0, 0, 0, 0.09);
+  border-top: 5px solid rgba(0, 0, 0, 0.3);
+}
+
 /*# sourceMappingURL=main.css.map */
